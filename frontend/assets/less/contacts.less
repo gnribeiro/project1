@@ -1,0 +1,314 @@
+  #maps{
+        height: 400px;
+    }
+
+.marker-info-win{
+    padding: 16px 10px;
+    font-size: 12px;
+    
+    color : #ffffff;
+
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li{
+        margin-bottom: 7px;
+        font-size: 13px;
+        .clearfix;
+        span{
+            float: left;
+        }
+        span:first-child{
+            margin-right: 7px;
+        }
+    }
+}
+
+
+.contacts{
+    background-image:url("../images/contacs.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-color: transparent;
+    color: #ffffff;
+
+
+    article{
+        padding: 84px 0 68px;
+        position: relative;
+
+    }
+
+    form {
+        width: 425px;
+        overflow: hidden;
+        margin: 0 auto;
+
+    }
+
+
+
+    textarea,
+    input[type="text"]{
+        width: 100%;
+        .border-radius(3px);
+        background-color:#ffffff;
+        height: 45px;
+        padding-top: 5px;
+        padding-left: 10px;
+        display: block;
+        border: none;
+
+    }
+
+    textarea{
+        height: 126px;
+    }
+
+    input[type="submit"]{
+        border: 3px solid #ffffff;
+        margin-top:15px;
+        float:right;
+        width: 101px;
+        height: 35px;
+        background: none;
+        color:#ffffff;
+         .border-radius(4px);
+    }
+
+    #contact-sucess-msg{
+        width: 425px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .error{
+        display: block;
+        color:#f04545;
+        font-size: 11px;
+        height: 23px;
+    }
+
+    .btntop{
+        display: block;
+        float: right;
+        width: 160px;
+        height: 33px;
+        padding-right: 56px;
+        padding-top: 7px;
+        position: relative;
+
+        &:after{
+            content: ' ';
+            width: 45px;
+            height: 33px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            .sprite;
+            background-position: -329px -112px;
+        }
+    }
+
+    footer{
+        margin-top: 15px;
+        border-top: 2px solid #ffffff;
+        padding-top: 11px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+        word-spacing: 5px
+    }
+
+    #circularG{
+        position:relative;
+        width:70px;
+        height:70px
+    } 
+
+
+    .loading{
+        position: absolute;
+        right: 180px;
+        top: 50% ;
+        width:70px;
+        height:70px;
+        display:none;
+
+        &.selected {
+            display: block;
+        }
+    }
+
+    .circularG{
+        position:absolute;
+        background-color:#ffffff;
+        width:16px;
+        height:16px;
+        -moz-border-radius:11px;
+        -moz-animation-name:bounce_circularG;
+        -moz-animation-duration:0.64s;
+        -moz-animation-iteration-count:infinite;
+        -moz-animation-direction:linear;
+        -webkit-border-radius:11px;
+        -webkit-animation-name:bounce_circularG;
+        -webkit-animation-duration:0.64s;
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-direction:linear;
+        -ms-border-radius:11px;
+        -ms-animation-name:bounce_circularG;
+        -ms-animation-duration:0.64s;
+        -ms-animation-iteration-count:infinite;
+        -ms-animation-direction:linear;
+        -o-border-radius:11px;
+        -o-animation-name:bounce_circularG;
+        -o-animation-duration:0.64s;
+        -o-animation-iteration-count:infinite;
+        -o-animation-direction:linear;
+        border-radius:11px;
+        animation-name:bounce_circularG;
+        animation-duration:0.64s;
+        animation-iteration-count:infinite;
+        animation-direction:linear;
+    }
+
+    #circularG_1{
+        left:0;
+        top:28px;
+        -moz-animation-delay:0.24s;
+        -webkit-animation-delay:0.24s;
+        -ms-animation-delay:0.24s;
+        -o-animation-delay:0.24s;
+        animation-delay:0.24s;
+    }
+
+    #circularG_2{
+        left:7px;
+        top:7px;
+        -moz-animation-delay:0.32s;
+        -webkit-animation-delay:0.32s;
+        -ms-animation-delay:0.32s;
+        -o-animation-delay:0.32s;
+        animation-delay:0.32s;
+    }
+
+    #circularG_3{
+        top:0;
+        left:28px;
+        -moz-animation-delay:0.4s;
+        -webkit-animation-delay:0.4s;
+        -ms-animation-delay:0.4s;
+        -o-animation-delay:0.4s;
+        animation-delay:0.4s;
+    }
+
+    #circularG_4{
+        right:7px;
+        top:7px;
+        -moz-animation-delay:0.48s;
+        -webkit-animation-delay:0.48s;
+        -ms-animation-delay:0.48s;
+        -o-animation-delay:0.48s;
+        animation-delay:0.48s;
+    }
+
+    #circularG_5{
+        right:0;
+        top:28px;
+        -moz-animation-delay:0.56s;
+        -webkit-animation-delay:0.56s;
+        -ms-animation-delay:0.56s;
+        -o-animation-delay:0.56s;
+        animation-delay:0.56s;
+    }
+
+    #circularG_6{
+        right:7px;
+        bottom:7px;
+        -moz-animation-delay:0.64s;
+        -webkit-animation-delay:0.64s;
+        -ms-animation-delay:0.64s;
+        -o-animation-delay:0.64s;
+        animation-delay:0.64s;
+    }
+
+    #circularG_7{
+        left:28px;
+        bottom:0;
+        -moz-animation-delay:0.72s;
+        -webkit-animation-delay:0.72s;
+        -ms-animation-delay:0.72s;
+        -o-animation-delay:0.72s;
+        animation-delay:0.72s;
+    }
+
+    #circularG_8{
+        left:7px;
+        bottom:7px;
+        -moz-animation-delay:0.8s;
+        -webkit-animation-delay:0.8s;
+        -ms-animation-delay:0.8s;
+        -o-animation-delay:0.8s;
+        animation-delay:0.8s;
+    }
+
+    @-moz-keyframes bounce_circularG{
+        0%{
+            -moz-transform:scale(1)
+        }
+
+        100%{
+            -moz-transform:scale(.3)
+        }
+
+    }
+
+    @-webkit-keyframes bounce_circularG{
+        0%{
+            -webkit-transform:scale(1)
+        }
+
+        100%{
+            -webkit-transform:scale(.3)
+        }
+
+    }
+
+    @-ms-keyframes bounce_circularG{
+        0%{
+            -ms-transform:scale(1)
+        }
+
+        100%{
+            -ms-transform:scale(.3)
+        }
+
+    }
+
+    @-o-keyframes bounce_circularG{
+        0%{
+        -o-transform:scale(1)
+        }
+
+        100%{
+            -o-transform:scale(.3)
+        }
+
+    }
+
+    @keyframes bounce_circularG{
+        0%{
+            transform:scale(1)
+        }
+
+        100%{
+            transform:scale(.3)
+        }
+
+    } 
+}

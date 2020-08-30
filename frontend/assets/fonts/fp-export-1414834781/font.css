@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Jura';
+  src: url('JuraLight.eot'); /* IE9 Compat Modes */
+  src: url('JuraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('JuraLight.woff') format('woff'), /* Modern Browsers */
+       url('JuraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('JuraLight.svg#7c6a90e7cfd8f2c5c63b11c4a6e04a2a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+

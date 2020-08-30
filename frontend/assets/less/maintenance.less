@@ -1,0 +1,296 @@
+#maintenance-fabril,
+#maintenance{
+    overflow: hidden;
+}
+
+
+#maintenance{
+    background-color: #222222;
+}
+
+
+.no-touch .maintenance-txt article:hover {        
+    .icon-maintenance{
+        background-color: rgba(13, 86, 165, 0.9);
+    }
+}
+
+
+
+.maintenance-txt{
+    background-image: url("../images/img-parallax2.jpg");
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    min-height: 738px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 107px;
+    
+  
+
+
+    .text{
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 84px;
+    }
+
+    .icon-maintenance{
+        width: 148px;
+        height: 148px;
+       
+        line-height: 24px;
+        margin: 0 auto;
+        background-color: transparent; 
+        cursor: pointer;
+        margin-bottom: 40px;
+        .transition(all 0.45 linear)  ;
+        .border-radius(8px);
+         border: 3px solid #ffffff;
+    }
+
+    article{
+        cursor: pointer;
+        
+        &.selected{
+            
+             .icon-maintenance{
+                background-color: rgba(13, 86, 165, 0.9);
+            }
+        }
+
+        .icon-bkg-maintenance{
+            height: 62px;
+            width: 62px;
+            margin: 45px auto 0;
+            .sprite;
+            background-position: 10px -60px ;
+        }
+
+        &:nth-child(2){
+           .icon-bkg-maintenance{
+                background-position:-58px -60px ;
+                margin-top: 39px;
+            } 
+        }
+
+         &:nth-child(odd){
+            padding-left: 151px
+         }
+
+         &:nth-child(even){
+            padding-right: 151px
+         }
+    }
+
+    h2 {
+        margin-bottom: 23px;
+        font-size:29px;
+        font-family:@JuraDemiBold ;
+    }
+
+
+    .intro{
+        width: 272px;
+        margin:0 auto 30px;
+        min-height: 60px;    
+    }
+}
+
+
+
+
+section.maintenance{
+    .sub-content{
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        
+        .btnAction{
+            position: absolute;
+            top:40px;
+            right: 3%;
+            color: #ffffff;
+            text-align: center;
+        }    
+
+        h2{
+            
+           font-size:29px;
+            font-family:@JuraDemiBold ;
+            padding-top: 32px;
+            margin: 80px 0 31px; 
+            position: relative;
+            
+            &:before{
+                content: ' ';
+                top: 0;
+                left: 0;
+                width: 46px;
+                height: 23px;
+                position: absolute;
+                .sprite;
+                background-position: -259px -113px;
+            }
+        }
+
+        .desc{
+           position: absolute;
+            top:0;
+            bottom: 0;
+            background-color: rgba(13, 86, 165, 0.9);
+            left: 0;
+            min-width: 375px; 
+            z-index: 3;
+        }
+
+        .text{
+            width: 478px;
+            height: auto;
+            float: right;
+            padding-left: 3px;
+            color:#ffffff;
+            padding-right: 25px;
+            
+
+            p{
+                margin-top: 0;
+            }
+        }
+    }
+
+
+    .hp-slide > div{
+        min-height: 740px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+    .nav-crtl {
+       z-index: 6; 
+    }
+    .owl-controls{
+        z-index: 6;
+    }
+
+     .owl-theme .owl-nav{
+        float: left;
+        margin-left:353px; 
+     }
+
+     .owl-theme .owl-dots{
+        float: right;
+        display: none !important;
+     }
+
+     .nav-crtl{
+        bottom: 75px; 
+     }
+}
+
+
+.no-touch .fabril article{
+           
+            &:hover{
+                
+                 .icon-maintenance{
+                    background-color: #ffffff;
+                }
+                .icon-bkg-maintenance{
+                  background-position: -110px -232.4px;   
+                }
+            }
+
+         
+            &:nth-child(2):hover{
+                .icon-bkg-maintenance{
+                 background-position: -282px -204.4px;  
+                } 
+            }
+       }
+
+.fabril{
+    a.download{
+        display: inline-block;
+        margin-right: 33px;
+        height: 36px;
+        padding-left: 59px;
+        position: relative;
+        cursor: pointer;
+        font-size: 21px;
+        line-height: 36px;
+        font-family: @Jura;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:hover{
+            text-decoration: none;
+            color:#ffffff;
+        }
+
+        &:before{
+            content:' ';
+            width: 47px;
+            height: 36px;
+            top: 0;
+            left: 0;
+            position: absolute;
+            .sprite;
+            background-position: -329px -147px;
+        }
+    }
+
+
+    .maintenance-txt{
+      background-image: none;
+      background-color: @secondColor; 
+
+       header + .text{
+        margin-bottom: 56px;
+       }       
+    }
+
+    .maintenance-txt h2{
+        min-height: 62px;
+    }
+
+    
+
+    article:nth-child(2) {
+
+        .icon-bkg-maintenance {
+            background-position: -2px -223px;
+            margin-top: 40px;
+        }
+        h2{
+            padding-top: 12px;
+        }
+    }
+
+       article{
+            &.selected
+            {
+                
+                 .icon-maintenance{
+                    background-color: #ffffff;
+                }
+                .icon-bkg-maintenance{
+                  background-position: -110px -232.4px;   
+                }
+            }
+
+            &:nth-child(2).selected {
+                .icon-bkg-maintenance{
+                 background-position: -282px -204.4px;  
+                } 
+            }
+       }
+    
+    article .icon-bkg-maintenance{
+        background-position: -193px -232.4px;
+        margin-top: 36px;
+
+    }
+}

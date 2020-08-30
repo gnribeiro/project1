@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Jura';
+  src: url('JuraBook.eot'); /* IE9 Compat Modes */
+  src: url('JuraBook.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('JuraBook.woff') format('woff'), /* Modern Browsers */
+       url('JuraBook.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('JuraBook.svg#354e3538e1de6fe5d5cce2c128e494c4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

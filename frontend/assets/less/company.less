@@ -1,0 +1,81 @@
+
+section#company{
+    background-image: url("../images/bkg-company.png");
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+    article.col-sm-4 {
+        float   : none;
+        display : table-cell;
+        text-align: center; 
+        background-color: transparent;
+        background-position: 0 0;
+        background-repeat: repeat-y;
+        color           : #ffffff;
+        padding-top: 121px;
+        padding-bottom: 170px;
+
+        &:nth-child(1){
+            background-image: url("../images/bkg1.png");
+
+            
+        }
+
+        &:nth-child(2){
+            background-image: url("../images/bkg2.png");
+            
+            header:before {
+                      background-position:  -269px 0;
+            }
+        }
+
+        &:nth-child(3){
+            background-image: url("../images/bkg3.png");
+            
+            header:before {
+               background-position:  -380px 0;
+            }
+        } 
+    }
+
+    header{
+        padding-top: 153px;
+        position: relative;
+
+        &:before{
+            content: ' ';
+            width: 110px;
+            height: 110px;
+            position: absolute;
+            top:0;
+            left: 50%;
+            margin-left: -55px;
+           .sprite;
+               background-position:  -159px 0;
+        }
+
+        h1{
+            margin: 0 0 40px;
+            line-height: 35px;
+            font-size:30px;
+            font-family:@Jura ; 
+        }
+    }
+    
+    .intro{
+        line-height: 23px;
+    }
+
+    .collapse{
+        line-height: 23px;
+        margin-top: 25px;
+    }
+
+
+    .content-collapse{
+        line-height: 23px;
+    }
+
+}

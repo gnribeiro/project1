@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Varela Round';
+  src: url('VarelaRound-Regular.eot'); /* IE9 Compat Modes */
+  src: url('VarelaRound-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('VarelaRound-Regular.woff') format('woff'), /* Modern Browsers */
+       url('VarelaRound-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('VarelaRound-Regular.svg#6cd70e035cd54e11a1a3548c42ef66ff') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

@@ -1,0 +1,97 @@
+.parallax{
+    background-attachment: fixed;
+}
+#qsas{
+    padding: 84px 0 68px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+     background-color: #222222;
+    background-image: url("../images/qsa.jpg");
+    color:#ffffff; 
+    height:992px;
+    overflow: hidden;
+
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+
+    li{
+        padding:5px 0 61px 148px;
+        position: relative;
+        &:before{
+            width: 107px;
+            height: 107px;
+            position: absolute;
+            content:' ';
+            top: 0;
+            left: 0;
+            .sprite;
+           background-position: -380px -117px;
+
+          
+        }
+
+         &:nth-child(2):before{
+            background-position: -490px -117px;
+           }
+
+        &:nth-child(3):before{
+            background-position: -490px 0;
+        }
+        
+        h1{
+            font-family: @Jura;
+            font-size: 40px;
+            margin: 0 0 13px;
+            text-transform: uppercase;
+        }
+
+        .desc {
+            line-height: 22px;
+        }
+    }
+
+    ul + p {
+       margin-left:  148px; 
+    }
+
+    a.download{
+        display: inline-block;
+        margin-right: 33px;
+        height: 36px;
+        padding-left: 59px;
+        position: relative;
+        cursor: pointer;
+        font-size: 21px;
+        line-height: 36px;
+        font-family: @Jura;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:hover{
+            text-decoration: none;
+            color:#ffffff;
+        }
+
+        &:before{
+            content:' ';
+            width: 47px;
+            height: 36px;
+            top: 0;
+            left: 0;
+            position: absolute;
+            .sprite;
+            background-position: -329px -147px;
+        }
+
+
+        &:first-child{
+            margin-left:  148px;
+        }
+    }
+
+}
